@@ -1,6 +1,13 @@
-<!-- 追加CSS（※何も影響しない。存在するだけ） -->
+<!-- 追加CSS -->
 <style>
-  /* 将来CSSを書くための空枠 */
+  /* LPサイズ固定（411px × 834px） */
+  div[style*="max-width:720px"] {
+    width: 411px !important;
+    height: 834px !important;
+    max-width: none !important;
+    margin: 0 auto;
+    overflow-y: auto;
+  }
 </style>
 
 <div style="
@@ -75,7 +82,7 @@
 
     <hr style="border:none;border-top:1px solid #e6e6e6;margin:30px 0;">
 
-    <!-- 特商法（小さめ・控えめ太字） -->
+    <!-- 特商法 -->
     <h3 style="
       font-size:14px;
       margin:0 0 6px 0;
@@ -96,7 +103,7 @@
 
     <hr style="border:none;border-top:1px solid #e6e6e6;margin:26px 0;">
 
-    <!-- 個人情報（小さめ・控えめ太字） -->
+    <!-- 個人情報 -->
     <h3 style="
       font-size:14px;
       margin:0 0 6px 0;
@@ -115,7 +122,7 @@
   </div>
 </div>
 
-<!-- 追加JS（※何もしない。存在するだけ） -->
+<!-- 追加JS（存在するだけ・動作なし） -->
 <script>
   // 将来JavaScriptを書くための空枠
 </script>
